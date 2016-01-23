@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="c4fff17e-d202-44c4-8578-0387a4d5aea4" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:61943/MyHelloWorld.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="MyHelloWorld.disco" MetadataType="Disco" ID="11717a23-89f8-4691-9f1f-a8879a2b0ad8" SourceId="1" SourceUrl="http://localhost:61943/MyHelloWorld.svc?disco" />
+    <MetadataFile FileName="MyHelloWorld.xsd" MetadataType="Schema" ID="6703803a-0ebc-4733-911a-d4e23c52da10" SourceId="1" SourceUrl="http://localhost:61943/MyHelloWorld.svc?xsd=xsd0" />
+    <MetadataFile FileName="MyHelloWorld1.xsd" MetadataType="Schema" ID="142af584-2674-4873-b574-7ed3b00d5bec" SourceId="1" SourceUrl="http://localhost:61943/MyHelloWorld.svc?xsd=xsd2" />
+    <MetadataFile FileName="MyHelloWorld2.xsd" MetadataType="Schema" ID="5d03bccc-2ffc-4ac6-9376-1c5f619ec488" SourceId="1" SourceUrl="http://localhost:61943/MyHelloWorld.svc?xsd=xsd1" />
+    <MetadataFile FileName="MyHelloWorld.wsdl" MetadataType="Wsdl" ID="c48674bb-4806-43a0-835b-bb92d71cdeac" SourceId="1" SourceUrl="http://localhost:61943/MyHelloWorld.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
