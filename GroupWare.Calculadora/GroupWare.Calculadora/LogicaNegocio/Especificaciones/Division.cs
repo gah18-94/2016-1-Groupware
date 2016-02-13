@@ -5,13 +5,13 @@ using System.Web;
 
 namespace Groupware.Calculadora.LogicaNegocio.Especificaciones
 {
-    public class Suma
+    public class Division
     {
         public double Calculo (double operandoUno, double operandoDos)
         {
             double resultado;
             // invoque a la acción correspondiente
-            Acciones.Sumar operacion = new Acciones.Sumar();
+            Acciones.Dividir operacion = new Acciones.Dividir();
             resultado = operacion.Calcular(operandoUno, operandoDos);
 
             return (resultado);

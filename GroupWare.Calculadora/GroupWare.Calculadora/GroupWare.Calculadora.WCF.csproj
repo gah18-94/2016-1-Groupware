@@ -7,12 +7,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{C860482D-8987-45FE-80CA-3B2205C6D54B}</ProjectGuid>
+    <ProjectGuid>{9E4FCE11-70E4-4A96-A5D9-3FA1F3AC3DE6}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GroupWare.Calculadora</RootNamespace>
-    <AssemblyName>GroupWare.Calculadora</AssemblyName>
+    <RootNamespace>Groupware.Calculadora</RootNamespace>
+    <AssemblyName>Groupware.Calculadora</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <WcfConfigValidationEnabled>True</WcfConfigValidationEnabled>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -22,6 +22,10 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <UseGlobalApplicationHostFile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -65,13 +69,22 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Groupware\Calculadora\LogicaNegocio\Especificaciones\RealizarOperacionBinaria.cs" />
+    <Compile Include="LogicaNegocio\Acciones\Dividir.cs" />
+    <Compile Include="LogicaNegocio\Acciones\Multiplicar.cs" />
+    <Compile Include="LogicaNegocio\Acciones\Restar.cs" />
     <Compile Include="LogicaNegocio\Acciones\Sumar.cs" />
+    <Compile Include="LogicaNegocio\Enumerados\Operadores.cs" />
+    <Compile Include="LogicaNegocio\Especificaciones\Multiplicacion.cs" />
+    <Compile Include="LogicaNegocio\Especificaciones\ObtenerOperando.cs" />
+    <Compile Include="LogicaNegocio\Especificaciones\Division.cs" />
+    <Compile Include="LogicaNegocio\Especificaciones\Resta.cs" />
     <Compile Include="LogicaNegocio\Especificaciones\Suma.cs" />
     <Compile Include="LogicaNegocio\Validaciones\Operadores.cs" />
     <Compile Include="MiCalculadora.svc.cs">
       <DependentUpon>MiCalculadora.svc</DependentUpon>
     </Compile>
-    <Compile Include="iMiCalculadora.cs" />
+    <Compile Include="IMiCalculadora.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -99,9 +112,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>47419</DevelopmentServerPort>
+          <DevelopmentServerPort>65119</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:47419/</IISUrl>
+          <IISUrl>http://localhost:65119/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

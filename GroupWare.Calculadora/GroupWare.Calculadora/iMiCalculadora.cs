@@ -6,11 +6,11 @@ using System.ServiceModel;
 using System.ServiceModel.Web;
 using System.Text;
 
-namespace GroupWare.Calculadora
+namespace Groupware.Calculadora
 {
     // NOTE: You can use the "Rename" command on the "Refactor" menu to change the interface name "IService1" in both code and config file together.
     [ServiceContract]
-    public interface iMiCalculadora
+    public interface IMiCalculadora
     {
 
         [OperationContract]
@@ -21,13 +21,11 @@ namespace GroupWare.Calculadora
 
         // TODO: Add your service operations here
 
+        [OperationContract]
+        double OperadorBinario(string operador, double operandoUno, double operandoDos);
 
         [OperationContract]
-        double OperadorBinario (string operador, double operandoUno, double operandoDos);
-
-
-        [OperationContract]
-        double OperadorUnario(string operador,  double operando);
+        double OperadorUnario(string operador, double operando);
     }
 
 

@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupWare.Calculadora.WCF", "GroupWare.Calculadora\GroupWare.Calculadora.WCF.csproj", "{C860482D-8987-45FE-80CA-3B2205C6D54B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Groupware.Calculadora.Wcf", "Groupware.Calculadora\Groupware.Calculadora.Wcf.csproj", "{9E4FCE11-70E4-4A96-A5D9-3FA1F3AC3DE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiCalculadoraTest", "MiCalculadoraTest\MiCalculadoraTest.csproj", "{56903E9B-5CB2-4299-84F3-505268EF6BF5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,12 +13,28 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C860482D-8987-45FE-80CA-3B2205C6D54B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C860482D-8987-45FE-80CA-3B2205C6D54B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C860482D-8987-45FE-80CA-3B2205C6D54B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C860482D-8987-45FE-80CA-3B2205C6D54B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E4FCE11-70E4-4A96-A5D9-3FA1F3AC3DE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E4FCE11-70E4-4A96-A5D9-3FA1F3AC3DE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E4FCE11-70E4-4A96-A5D9-3FA1F3AC3DE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E4FCE11-70E4-4A96-A5D9-3FA1F3AC3DE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56903E9B-5CB2-4299-84F3-505268EF6BF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56903E9B-5CB2-4299-84F3-505268EF6BF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56903E9B-5CB2-4299-84F3-505268EF6BF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56903E9B-5CB2-4299-84F3-505268EF6BF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://gah1894.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Groupware.Calculadora\\Groupware.Calculadora.Wcf.csproj
+		SccProjectName1 = Groupware.Calculadora
+		SccLocalPath1 = Groupware.Calculadora
+		SccProjectUniqueName2 = MiCalculadoraTest\\MiCalculadoraTest.csproj
+		SccProjectName2 = MiCalculadoraTest
+		SccLocalPath2 = MiCalculadoraTest
 	EndGlobalSection
 EndGlobal
